@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{a26bc8df-0730-4c8b-b62b-6c8cb707619c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionDetection">
+      <UniqueIdentifier>{f0396cf2-034e-45f9-acf9-d2cd94d235ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{347066ad-4370-4a65-a74d-e85627b90b79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constraint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionConstraint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingAABB.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingOOBB.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereVolume.h">
+      <Filter>CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysicsObject.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionConstraint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingAABB.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingOOBB.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingVolume.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

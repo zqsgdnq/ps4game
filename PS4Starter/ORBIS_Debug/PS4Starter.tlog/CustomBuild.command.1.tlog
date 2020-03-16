@@ -1,0 +1,2 @@
+^C:\USERS\ADMIN\DESKTOP\NEW PS4\PS4 STARTER\ASSETS\TEXTURES\DOGE.PNG
+"C:\Program Files (x86)\SCE\ORBIS SDKs\7.000\host_tools\bin\orbis-image2gnf" -i "C:\Users\Admin\Desktop\new PS4\PS4 Starter\Assets\Textures\doge.png" -o "..\Assets\Textures\doge.gnf" -f Auto
